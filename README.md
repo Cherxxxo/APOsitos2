@@ -3,7 +3,11 @@
 </p>
 
 <p align="center">
-    # 💻 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+    💻 
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
 </p>
 
 # Titulo del Proyecto
