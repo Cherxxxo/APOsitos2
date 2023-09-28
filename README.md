@@ -1,71 +1,58 @@
-![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png)
+<p align="center">
+    <img src="https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png" alt="Logo Java">
+</p>
 
 # 💻 ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 # Titulo del Proyecto
 
-Un párrafo de la descripción del proyecto va aquí.
+Determinador Par o Impar
+
+# Descripción del Proyecto
+
+Este proyecto consiste en un programa Java que permite al usuario determinar si un número ingresado es par o impar. El programa solicita al usuario ingresar un número, y luego, utilizando estructuras condicionales, verifica si el número es cero, par o impar. Posteriormente, muestra un mensaje en la pantalla indicando la naturaleza del número ingresado.
 
 ## Empezando
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+Para obtener una copia de este proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba, siga las instrucciones a continuación.
 
 ### Requisitos previos
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
-
-```
-Give examples
-```
+Para ejecutar este programa, necesita tener Java instalado en su máquina.
 
 ### Instalación
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
+No se requiere instalación adicional para este programa.
 
-Di cuál será el paso.
+### Ejecución
 
+1. Abra una terminal o línea de comandos.
+2. Compile el programa utilizando el siguiente comando:
+   
 ```
-Give the example
-```
-
-Y repetir
-
-```
-until finished
+javac ParoImpar.java
 ```
 
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
+3. Ejecute el programa con el siguiente comando:
+
+```
+java ParoImpar
+```
+
+4. El programa le solicitará que ingrese un número. Ingrese un número y presione Enter.
+5. El programa determinará si el número ingresado es cero, par o impar y mostrará el resultado en la pantalla.
 
 ## Ejecutando las pruebas
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
-
-### Dividir en pruebas de principio a fin
-
-Explique qué prueban estas pruebas y por qué.
-
-```
-Give an example
-```
-
-### Y pruebas de estilo de codificación.
-
-Explique qué prueban estas pruebas y por qué.
-
-```
-Give an example
-```
+Este programa no requiere pruebas automatizadas. Las pruebas se realizan de manera interactiva al ingresar un número y verificar la salida.
 
 ## Despliegue (Deployment)
 
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
-
+Este programa es de uso local y no requiere despliegue en un sistema en vivo.
 
 ## Construido con
 
-Dropwizard : el marco web utilizado
-Maven - Gestión de dependencias
-ROMA : se utiliza para generar canales RSS
+Este programa fue construido con Java
 
 ## Versionado
 
@@ -73,7 +60,7 @@ Usamos Git para el control de versiones. Para conocer las versiones disponibles,
 
 ## Autores
 
-* **Gustavo Sánchez** 
+* **Andrés Lombana - Sergio Morillo - Carlos Arcos** 
 
 
 ## Licencia
@@ -82,6 +69,4 @@ Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener
 
 ## Expresiones de gratitud (Acknowledgments)
 
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+*Agradecemos a todos aquellos cuyo código se ha utilizado como inspiración para este proyecto.
