@@ -1,0 +1,18 @@
+package Calculadoras;
+
+import java.io.PrintStream;
+import java.util.Scanner;
+
+public class Dardistancia
+{
+  public static void main(String[] args) {}
+  public static void Dardistancia()
+  {
+    int v = 20;
+    int t = 5;
+    int d = 0;
+    
+    d = v * t;
+    System.out.println("la distancia recorrida es" + d + "km");
+  }
+}
