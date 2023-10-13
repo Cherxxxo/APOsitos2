@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="![Alt text](<foto de lomba.jpg>)" alt="Logo Java">
+    <img src="https://imgur.com/a/Xlu692v" alt="Logo Java">
 </p>
 
 <p align="center">
