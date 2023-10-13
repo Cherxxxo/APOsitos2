@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class Calculadora {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Calculadora básica");
+        System.out.print("Ingrese el primer número: ");
+        double num1 = scanner.nextDouble();
+        System.out.print("Ingrese el segundo número: ");
+        double num2 = scanner.nextDouble();
+
+        System.out.println("Elija la operación:");
+        System.out.println("1. Suma");
+        System.out.println("2. Resta");
+        System.out.println("3. Multiplicación");
+        System.out.println("4. División");
+
+        int opcion = scanner.nextInt();
+
+        switch (opcion) {
+            case 1:
+                double suma = sumar(num1, num2);
+                System.out.println("El resultado de la suma es: " + suma);
+                break;
+            case 2:
+                double resta = restar(num1, num2);
+                System.out.println("El resultado de la resta es: " + resta);
+                break;
+            case 3:
+                double multiplicacion = multiplicar(num1, num2);
+                System.out.println("El resultado de la multiplicación es: " + multiplicacion);
+                break;
+            case 4:
+                if (num2 == 0) {
+                    System.out.println("Error: No se puede dividir por cero.");
+                } else {
+                    double division = dividir(num1, num2);
+                    System.out.println("El resultado de la división es: " + division);
+                }
+                break;
+            default:
+                System.out.println("Opción no válida.");
+        }
+
+        scanner.close();
+    }
+
+    public static double sumar(double a, double b) {
+        return a + b;
+    }
+
+    public static double restar(double a, double b) {
+        return a - b;
+    }
+
+    public static double multiplicar(double a, double b) {
+        return a * b;
+    }
+
+    public static double dividir(double a, double b) {
+        return a / b;
+    }
+}
