@@ -1,0 +1,33 @@
+package ecua;
+##"Este caodigo sigue en desarrollo"
+public class ecua {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void ecua () {
+		int a=30,b=20,c=10,d=5;
+		int xx,x,y,yy;
+		
+		System.out.println("Ingrese la temperatura de su casa:");
+		Scanner sc = new Scanner(System.in);
+		int sc=tc nextInt();
+		
+		if (tc == a || b || c || d) {
+			a = 5;
+			b = 10;
+			c = 15;
+			d = 20;
+			
+			System.out.println("ingrese la cantida de preouloglicol va a usar:");
+			int sc=lt nextInt();
+			
+			System.out.println("que porcentajes de mezcla vas a usar:");
+			int sc=mz nextInt();
+			int sc=mzz nextInt();
+	   }
+	}
+
+}
