@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://imgur.com/a/Xlu692v" alt="Logo Java">
+    <img src="https://i.imgur.com/F4rhkkR.jpg" width="250" height="250" alt="Logo Java">
 </p>
 
 <p align="center">
