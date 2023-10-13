@@ -1,0 +1,15 @@
+public class PatronNumerico {
+    public static void main(String[] args) {
+        int numero1 = 1;
+        int numero2 = 1;
+
+        System.out.print(numero1 + " " + numero2 + " ");
+        
+        for (int i = 2; i < 20; i++) {
+            int siguiente = numero1 + numero2;
+            System.out.print(siguiente + " ");
+            numero1 = numero2;
+            numero2 = siguiente;
+        }
+    }
+}
