@@ -72,3 +72,8 @@ public class MenúConJOptionPane {
     }
 }" -->
 
+## 2. CALCULADORA DE NOTAS
+
+este codigo es una calculadora de notas diseñada para calularel promedio de notas que usuario decida darle , codigo simple de la cantidad total de notas divida entre el numero de los datos ingresado para dar el promedio este codigo nos puede servir a a hora de sacar promedio de notas de una asignatura 
+
+el codigo es el siguiente:
