@@ -22,7 +22,7 @@ el siguiente trabajo por parte del el usuarios dueños del repositorio dara a mo
 
 la calcudora factorial es un codigo ultilazo para tener una variable y que esta se multiplique por su antecesores hasta llegar a 1 un ejemplo claro seria el numero 4 que hara el siguiente recorrido "4=4*3*2*1" y mostrara en el panel el resutaldo
 
-el codigo es el siguiente:
+
 
 <!-- "
 
@@ -76,7 +76,6 @@ public class MenúConJOptionPane {
 
 este codigo es una calculadora de notas diseñada para calularel promedio de notas que usuario decida darle , codigo simple de la cantidad total de notas divida entre el numero de los datos ingresado para dar el promedio este codigo nos puede servir a a hora de sacar promedio de notas de una asignatura 
 
-el codigo es el siguiente:
 
 <!-- "
 
@@ -112,3 +111,9 @@ public class CalculadoraNotas {
        JOptionPane.showMessageDialog(null, "Promedio de Notas: " + promedio);
    }
 } -->
+
+## 3. GESTOR DE NOTAS
+
+este codigo esta diseñado para asginar una variables = (Notas) a las asignaturas prediseñadas por el codigo con esto podemos tener una persepcion de que es lo que significa usar las arrays en un codigo para poder asi identificar y poder usarlos a futuro
+
+<!--  -->
