@@ -1,0 +1,106 @@
+import java.util.Scanner;
+
+public class MenuParaMiau {
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+	        int choice;
+
+	        do {
+	            System.out.println("Menú:");
+	            System.out.println("1. Conversor de Moneda (Peso a Dólar)");
+	            System.out.println("2. Promedio de Notas");
+	            System.out.println("3. Clasificación de Equipo");
+	            System.out.println("4. Par o Impar");
+	            System.out.println("5. Salir");
+	            System.out.println("Elige una opción: ");
+	            choice = scanner.nextInt();
+
+	          
+	                switch (choice) {
+	                
+	                    case 1:
+	                    		double D;
+	                    		double NV;
+	                    		
+	                    		D = 4150;
+	                    		
+	                    		System.out.println("Ingrese el valor en dolares");
+	                    		
+	                    		Scanner sc1=new Scanner(System.in);
+	                    	    double v=sc1.nextDouble();
+	                    	    
+	                    	    NV = (v*D);
+	                    	    		
+	                    	    if (v<0) {
+	                    	    	 System.out.println("El valor no es valido");
+	                    	    }
+	                    	    else {
+	                    	    	System.out.println("El valor en pesos es:" + NV);
+	                    	    }
+		                        break;
+	                    case 2:
+	                    {
+	                        Scanner sc2 = new Scanner(System.in);
+	                        System.out.print("Ingresa la primera nota: ");
+	                        double nota1 = sc2.nextDouble();
+	                        Scanner sc3 = new Scanner(System.in);
+	                        System.out.print("Ingresa la segunda nota: ");
+	                        double nota2 = sc3.nextDouble();
+	                        Scanner sc4 = new Scanner(System.in);
+	                        System.out.print("Ingresa la tercera nota: ");
+	                        double nota3 = sc4.nextDouble();
+	                        
+	                        double suma = nota1 + nota2 + nota3;
+
+	                        double promedio = suma/3;
+
+	                        System.out.println("El promedio de notas es: " + promedio);
+	                    }
+	                        break;
+	                    case 3:
+	                    {
+	                        Scanner sc5 = new Scanner(System.in);
+	                        System.out.print("Cuantos Partidos Ganó: ");
+	                        int PG = sc5.nextInt();
+	                        Scanner sc6 = new Scanner(System.in);
+	                        System.out.print("Cuantos Partidos Empató: ");
+	                        int PE = sc6.nextInt();
+	                        Scanner sc7 = new Scanner(System.in);
+	                        System.out.print("Cuantos Partidos Perdió: ");
+	                        int PP = sc7.nextInt();
+	                        
+	                       int puntos = (PG * 3) + (PE * 1);
+	                       
+	                       System.out.println("El equipo obtuvo: " + puntos + " puntos.");
+	                    }
+	                        break;
+	                
+	                    case 4:
+	                    {
+	                
+	                        Scanner sc8 = new Scanner(System.in);
+	                        System.out.print("Ingresa un número: ");
+	                        int numero = sc8.nextInt();
+
+	                        if (numero == 0) {
+	                            System.out.println("El número es cero.");
+	                        } else if (numero % 2 == 0) {
+	                            System.out.println("El número es par.");
+	                        } else {
+	                            System.out.println("El número es impar.");
+	                        }
+	                        break;
+	                    }
+	                    case 5:
+	                    {
+	                System.out.println("Hasta luego");
+	                break;
+	                    }
+	                 default:
+	                		 System.out.println("No sea guebón y digite una opción del 1 al 5 indígena");
+	                	 }
+	        } while (choice != 5);
+	        
+	                scanner.close();
+	                }
+	    }
