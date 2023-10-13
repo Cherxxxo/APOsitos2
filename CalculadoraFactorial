@@ -1,0 +1,47 @@
+CALCULADORA FACTORIAL
+
+public class MenúConJOptionPane {
+
+    public static void main(String[] args) {
+        boolean quiereCalcularOtro = true;
+
+        while (quiereCalcularOtro) {
+            int numero = obtenerNumero();
+            long factorial = calcularFactorial(numero);
+            mostrarResultado(numero, factorial);
+
+            String respuesta = JOptionPane.showInputDialog("¿Desea calcular otro factorial? (Sí/No)");
+            if (!respuesta.equalsIgnoreCase("Sí")) {
+                quiereCalcularOtro = false;
+            }
+        }
+    }
+
+    public static int obtenerNumero() {
+        int numero = 0;
+        boolean numeroValido = false;
+
+        while (!numeroValido) {
+            numero = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un número entero positivo:"));
+            if (numero > 0) {
+                numeroValido = true;
+            } else {
+                JOptionPane.showMessageDialog(null, "Ingrese un número positivo.");
+            }
+        }
+
+        return numero;
+    }
+
+    public static long calcularFactorial(int numero) {
+        long factorial = 1;
+        for (int i = 1; i <= numero; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }
+
+    public static void mostrarResultado(int numero, long factorial) {
+        JOptionPane.showMessageDialog(null, "El factorial de " + numero + " es " + factorial);
+    }
+}
