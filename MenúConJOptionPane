@@ -1,0 +1,109 @@
+import javax.swing.JOptionPane;
+
+public class MenúConJOptionPane {
+	public static void main(String[] args) {
+    	int op=0;	
+    	 
+    while (op!=5){
+	op = Integer.parseInt(JOptionPane.showInputDialog(null,"  1: Conversor moneda\n 2: Promedio nota\n 3: Clasificacion equipo\n 4: Par o Impar\n 5: Salir","Que funcion quieres realizar?",3));
+   
+		
+		if (op==1) {
+			Divisa ();
+		}
+		else if (op==2) {
+			Darpromedio();
+		}
+		else if (op==3) {
+			Darpuntos();
+		}
+		else if (op==4) {
+			Par();
+		}
+		else if (op==5) {
+
+			JOptionPane.showMessageDialog(null,"Programa finalizado, gracias","salir",-1);
+		}
+    
+		else { 
+		
+			JOptionPane.showMessageDialog(null,"Esa opcion no existe","error",0);
+		}
+    }
+    }	
+			
+	public static void Divisa () {
+		double D;
+		double NV;
+		
+		D = 4150;
+		
+		int v = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese el valor en pesos;","Divisa",3));
+		
+		
+	    NV = (v/D);
+	    		
+	    if (v<0) {
+	    	JOptionPane.showMessageDialog(null,"el valor no es valido","Divisa",3);
+	    }
+	    else {
+	    	
+	    }
+	    JOptionPane.showMessageDialog(null,"el valor en dolares es:" + NV,"Divisa",-1);
+	    	
+	}
+	
+public static void Darpromedio () {
+
+		int x;
+		int t;
+		
+		 int n1 = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese la nota 1\n","NOTAS",1));
+		 int n2 = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese la nota 2","NOTAS",1));
+		 int n3 = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese la nota 3","NOTAS",1));		
+		
+		n1 = 3;
+		n2 = 4;
+		n3 = 5;
+		
+		x = (n1+n2+n3);
+		
+		t = (x/3);
+		
+		JOptionPane.showMessageDialog(null,"el promedio es:" + t ,null, 1);
+	}
+
+public static void Darpuntos () {
+	
+	int pt;
+	
+	 int pg = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese los partidos ganados","PARTIDOS",1));
+	 int pp = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese los partidos perdidos","PARTIDOS",1));
+	 int pe = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese los partidos empatados","PARTIDOS",1));
+
+	
+	pt = ((pg*3)+(pp*0)+(pe*1));
+	
+	JOptionPane.showMessageDialog(null,"los puntos totales son:" + pt ,null, 1);
+	
+}
+
+public static void Par () {
+	
+	 int no = Integer.parseInt(JOptionPane.showInputDialog(null,"ingrese su numero","PAR",1));
+	
+	if (no == 0) {
+		
+		JOptionPane.showMessageDialog(null,"el numero es 0");
+	}
+	else if (no%2 != 0){
+		
+		JOptionPane.showMessageDialog(null,"el numero es impar");
+	}
+	else if (no%2 == 0){
+		
+		JOptionPane.showMessageDialog(null,"el numero es par");
+	}
+}	
+
+}

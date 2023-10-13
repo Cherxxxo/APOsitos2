@@ -1,22 +1,8 @@
-<p align="center">
-    <img src="https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png" alt="Logo Java">
-</p>
+# Menú Con JOption Pane
 
-<p align="center">
-    💻 
-</p>
+# Descripción
 
-<p align="center">
-    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-</p>
-
-# Trabajo de APOsitos
-
-Determinador Par o Impar
-
-# Descripción del Proyecto
-
-Este proyecto consiste en un programa Java que permite al usuario determinar si un número ingresado es par o impar. El programa solicita al usuario ingresar un número, y luego, utilizando estructuras condicionales, verifica si el número es cero, par o impar. Posteriormente, muestra un mensaje en la pantalla indicando la naturaleza del número ingresado.
+Este es un programa en Java con un menú interactivo que permite al usuario realizar varias funciones: conversión de moneda, cálculo del promedio de notas, clasificación de equipos y determinación si un número es par o impar. El menú se muestra usando JOptionPane, y el programa utiliza bucles para repetir la interacción hasta que el usuario elija salir. Cada función se implementa como un método separado para mantener el código organizado.
 
 ## Empezando
 
@@ -35,15 +21,15 @@ No se requiere instalación adicional para este programa.
 1. Abra una terminal o línea de comandos.
 2. Compile el programa utilizando el siguiente comando:
    
-```
+
 javac ParoImpar.java
-```
+
 
 3. Ejecute el programa con el siguiente comando:
 
-```
+
 java ParoImpar
-```
+
 
 4. El programa le solicitará que ingrese un número. Ingrese un número y presione Enter.
 5. El programa determinará si el número ingresado es cero, par o impar y mostrará el resultado en la pantalla.
@@ -62,12 +48,11 @@ Este programa fue construido con Java
 
 ## Versionado
 
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio .
+Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio.
 
 ## Autores
 
-* **Andrés Lombana - Sergio Morillo - Carlos Arcos** 
-
+* *Andrés Lombana - Sergio Morillo - Carlos Arcos* 
 
 ## Licencia
 
