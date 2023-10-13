@@ -17,7 +17,6 @@ public class CalcularPuntos {
 	    
 	    System.out.print("los puntos totales son:" + pt);
 	  }
-	  
 	  public static void Edad()
 	  {
 	    throw new Error("Unresolved compilation problems: \n\tThe left-hand side of an assignment must be a variable\n\tSyntax error, insert \"AssignmentOperator Expression\" to complete Assignment\n\tSyntax error, insert \";\" to complete Statement\n");
