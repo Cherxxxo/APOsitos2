@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png" alt="Logo Java">
+    <img src="https://i.imgur.com/F4rhkkR.jpg" alt="Logo Java">
 </p>
 
 <p align="center">
