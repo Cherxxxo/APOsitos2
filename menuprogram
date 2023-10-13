@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class menuprogram {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int choice;
+
+        do {
+            System.out.println("Menú:");
+            System.out.println("1. Conversor de Moneda (Peso a Dólar)");
+            System.out.println("2. Promedio de Notas");
+            System.out.println("3. Clasificación de Equipo");
+            System.out.println("4. Par o Impar");
+            System.out.println("5. Salir");
+            System.out.print("Elige una opción: ");
+            choice = scanner.nextInt();
+
+            if (choice >= 1 && choice <= 4) {
+                switch (choice) {
+                    case 1:
+                        // Código del Conversor de Moneda
+                        break;
+                    case 2:
+                        // Código del Promedio de Notas
+                        break;
+                    case 3:
+                        // Código de la Clasificación de Equipo
+                        break;
+                    case 4:
+                        // Código del Par o Impar
+                        break;
+                }
+            } else if (choice == 5) {
+                System.out.println("¡Hasta luego!");
+            } else {
+                System.out.println("Opción no válida. Por favor, elige una opción del 1 al 5.");
+            }
+        } while (choice != 5);
+
+        scanner.close();
+    }
+}
