@@ -1,0 +1,20 @@
+package Calculadoras;
+
+import java.util.Scanner;
+
+public class CalcularPromedio {
+
+	public static void main(String[] args) {
+	}
+	public static void Darpromedio(){
+	    int n1 = 3;
+	    int n2 = 4;
+	    int n3 = 5;
+	    
+	    int x = n1 + n2 + n3;
+	    
+	    int t = x / 3;
+	    
+	    System.out.println("el promedio es:" + t);
+	}
+}
