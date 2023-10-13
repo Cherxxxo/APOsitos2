@@ -77,3 +77,38 @@ public class MenúConJOptionPane {
 este codigo es una calculadora de notas diseñada para calularel promedio de notas que usuario decida darle , codigo simple de la cantidad total de notas divida entre el numero de los datos ingresado para dar el promedio este codigo nos puede servir a a hora de sacar promedio de notas de una asignatura 
 
 el codigo es el siguiente:
+
+<!-- "
+
+import javax.swing.JOptionPane;
+
+public class CalculadoraNotas {
+   public static void main(String[] args) {
+       double cantidadNotas = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el número de notas: "));
+       double notas[] = new double[(int) cantidadNotas];
+
+       for (int i = 0; i < cantidadNotas; i++) {
+           notas[i] = Double.parseDouble(JOptionPane.showInputDialog("Ingrese la nota" + (i + 1) + ": "));
+       }
+
+       double notaMaxima = notas[0];
+       double notaMinima = notas[0];
+       double sumaNotas = 0;
+
+       for (int i = 0; i < cantidadNotas; i++) {
+           if (notas[i] > notaMaxima) {
+               notaMaxima = notas[i];
+           }
+           if (notas[i] < notaMinima) {
+               notaMinima = notas[i];
+           }
+           sumaNotas += notas[i];
+       }
+
+       double promedio = (double) sumaNotas / cantidadNotas;
+
+       JOptionPane.showMessageDialog(null, "Nota Máxima: " + notaMaxima);
+       JOptionPane.showMessageDialog(null, "Nota Mínima: " + notaMinima);
+       JOptionPane.showMessageDialog(null, "Promedio de Notas: " + promedio);
+   }
+} -->
