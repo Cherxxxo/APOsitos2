@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png" alt="Logo Java">
+    <img src="![Alt text](<Imagen de WhatsApp 2023-10-12 a las 20.08.34_9fec5198.jpg>)" alt="Logo Java">
 </p>
 
 <p align="center">
