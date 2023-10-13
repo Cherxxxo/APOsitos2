@@ -1,63 +1,59 @@
-# Menú Con JOption Pane
+<p align="center">
+    <img src="https://i.imgur.com/F4rhkkR.jpg" width="250" height="250" alt="Logo Java">
+</p>
 
-# Descripción
+<p align="center">
+    💻 
+</p>
+
+<p align="center">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
+</p>
+
+# Trabajo de APOsitos (Andrés Lombana)
+
+### Creado por cherxxxo_StainGun_andreflombana 
+
+# Descripción  de nuestro trabajo
+
+el siguiente trabajo por parte del el usuarios dueños del repositorio dara a mostra ejercicios puestos a realizacion en la clase de segundo semestres "APOII" donde se podra evidencia cada uno de los ejercicios trabajados con su respectiva explicacion y codigo , para complenmentar el trabajo de cloud y poner a evidencia el uso y manejo de tanto GitHub.
+
+## 0. ParOImpar
+
+Este proyecto consiste en un programa Java que permite al usuario determinar si un número ingresado es par o impar. El programa solicita al usuario ingresar un número, y luego, utilizando estructuras condicionales, verifica si el número es cero, par o impar. Posteriormente, muestra un mensaje en la pantalla indicando la naturaleza del número ingresado.
+
+## 1. MenúconJOptionPane
 
 Este es un programa en Java con un menú interactivo que permite al usuario realizar varias funciones: conversión de moneda, cálculo del promedio de notas, clasificación de equipos y determinación si un número es par o impar. El menú se muestra usando JOptionPane, y el programa utiliza bucles para repetir la interacción hasta que el usuario elija salir. Cada función se implementa como un método separado para mantener el código organizado.
 
-## Empezando
+## 2. CalculadoraNotas
 
-Para obtener una copia de este proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba, siga las instrucciones a continuación.
+Este programa permite al usuario ingresar una cantidad de notas, calcular la nota máxima, la nota mínima y el promedio de esas notas. Utiliza un bucle para solicitar las notas y luego realiza cálculos para mostrar los resultados.
 
-### Requisitos previos
+## 3. Calculadora
 
-Para ejecutar este programa, necesita tener Java instalado en su máquina.
+Esta calculadora básica solicita al usuario que ingrese dos números y luego elige una operación (suma, resta, multiplicación o división) para realizar. Luego muestra el resultado de la operación. También maneja la división por cero.
 
-### Instalación
+## 4. diassemana
 
-No se requiere instalación adicional para este programa.
+Este código toma un número ingresado por el usuario (del 1 al 7) y muestra el día de la semana correspondiente.
 
-### Ejecución
+## 5. MenuProgram
 
-1. Abra una terminal o línea de comandos.
-2. Compile el programa utilizando el siguiente comando:
-   
+Similar al primer código, es un menú que permite al usuario seleccionar entre diferentes opciones, como un conversor de moneda, cálculo de promedio de notas, clasificación de equipos y verificar si un número es par o impar. El programa continúa ejecutando opciones hasta que el usuario elige salir.
 
-javac ParoImpar.java
+## 6. MenuParaMiau
 
+Otra versión de menú que incluye las mismas opciones que los programas anteriores. Cada opción realiza cálculos y muestra resultados.
 
-3. Ejecute el programa con el siguiente comando:
+## 7. TablaDelOcho
 
+Genera una tabla de multiplicar del número 8 hasta el 80. Muestra el resultado de multiplicar el número 8 por cada número del 1 al 10.
 
-java ParoImpar
+## 8. PatronNumerico
 
+Muestra un patrón numérico que inicia con 1, 1 y luego sigue con la suma de los dos números anteriores hasta llegar a los primeros 20 números en la secuencia.
 
-4. El programa le solicitará que ingrese un número. Ingrese un número y presione Enter.
-5. El programa determinará si el número ingresado es cero, par o impar y mostrará el resultado en la pantalla.
-
-## Ejecutando las pruebas
-
-Este programa no requiere pruebas automatizadas. Las pruebas se realizan de manera interactiva al ingresar un número y verificar la salida.
-
-## Despliegue (Deployment)
-
-Este programa es de uso local y no requiere despliegue en un sistema en vivo.
-
-## Construido con
-
-Este programa fue construido con Java
-
-## Versionado
-
-Usamos Git para el control de versiones. Para conocer las versiones disponibles, consulte las etiquetas en este repositorio.
-
-## Autores
-
-* *Andrés Lombana - Sergio Morillo - Carlos Arcos* 
-
-## Licencia
-
-Este proyecto tiene la licencia MIT; consulte el archivo LICENSE.md para obtener más detalles.
-
-## Expresiones de gratitud (Acknowledgments)
-
-*Agradecemos a todos aquellos cuyo código se ha utilizado como inspiración para este proyecto.
+```
+Todos los códigos presentes en esta rama corresponden al Lenguaje de Programación "Java" y se pueden ejecutar en Visual Studio Code o en Eclipse.
+```
