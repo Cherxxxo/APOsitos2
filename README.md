@@ -116,4 +116,31 @@ public class CalculadoraNotas {
 
 este codigo esta diseñado para asginar una variables = (Notas) a las asignaturas prediseñadas por el codigo con esto podemos tener una persepcion de que es lo que significa usar las arrays en un codigo para poder asi identificar y poder usarlos a futuro
 
-<!--  -->
+<!-- GESTOR DE NOTAS
+
+import javax.swing.JOptionPane;
+
+public class GestorDeAsignaturas {
+    public static void main(String[] args) {
+    	
+        String[] asignaturas = {"APO", "CÁLCULO", "ÁLGEBRA", "CLOUD", "DELITOS"};
+        double[] notas = new double[5]; 
+
+        for (int i = 0; i < asignaturas.length; i++) {
+            try {
+                double nota = Double.parseDouble(JOptionPane.showInputDialog(null, "Ingrese la nota para " + asignaturas[i] + ": ", "Gestor De Asignaturas", JOptionPane.QUESTION_MESSAGE));
+                notas[i] = nota;
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(null, "Por favor, ingrese una nota válida para " + asignaturas[i], "Error", JOptionPane.ERROR_MESSAGE);
+                i--;
+            }
+        }
+
+        String resultado = "Notas de asignaturas:\n";
+        for (int i = 0; i < asignaturas.length; i++) {	
+            resultado += asignaturas[i] + ": " + notas[i] + "\n";
+        }
+
+        JOptionPane.showMessageDialog(null, resultado, "Resultados", JOptionPane.QUESTION_MESSAGE);
+    }
+} -->
