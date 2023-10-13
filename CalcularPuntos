@@ -1,0 +1,25 @@
+package Calculadoras;
+import java.io.PrintStream; 
+import java.util.Scanner;
+
+public class CalcularPuntos {
+
+	public static void main(String[] args) {
+	}
+	 public static void Darpuntos()
+	  {
+	    Scanner sc = new Scanner(System.in);
+	    int pg = sc.nextInt();
+	    int pp = sc.nextInt();
+	    int pe = sc.nextInt();
+	    
+	    int pt = pg * 3 + pp * 0 + pe * 1;
+	    
+	    System.out.print("los puntos totales son:" + pt);
+	  }
+	  
+	  public static void Edad()
+	  {
+	    throw new Error("Unresolved compilation problems: \n\tThe left-hand side of an assignment must be a variable\n\tSyntax error, insert \"AssignmentOperator Expression\" to complete Assignment\n\tSyntax error, insert \";\" to complete Statement\n");
+	  }
+}
